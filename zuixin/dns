@@ -20,7 +20,7 @@ ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
 custom_proxy_group=奈飞迪士尼`select`[]DIRECT`[]DIRECT`.*
 custom_proxy_group=测试规则`select`[]DIRECT`[]DIRECT`.*
 
