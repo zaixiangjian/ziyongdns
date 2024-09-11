@@ -1,1 +1,1 @@
-# ziyongdns
+# 自用clash-dns
