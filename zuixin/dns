@@ -16,10 +16,9 @@ ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
-
-custom_proxy_group=🚀 节点选择select[]DIRECT.*
-custom_proxy_group=国外流媒体奈飞`select`[]🚀 节点选择`[]DIRECT`.*
-custom_proxy_group=迪士尼`select`[]🚀 节点选择`[]DIRECT`.*
+custom_proxy_group=🚀 节点选择`select
+custom_proxy_group=国外流媒体奈飞`select`[]🚀 节点选
+custom_proxy_group=迪士尼`select`[]🚀 节点选择
 
 
 enable_rule_generator=true
