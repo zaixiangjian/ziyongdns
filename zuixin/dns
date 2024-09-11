@@ -18,8 +18,8 @@ ruleset=🚀 节点选择,[]FINAL
 
 
 custom_proxy_group=🚀 节点选择`[]DIRECT`.*
-custom_proxy_group=奈飞`节点选择`[]DIRECT`[]DIRECT`.* 
-custom_proxy_group=迪士尼`节点选择`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=奈飞 节点选择`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=迪士尼 节点选择`select`[]DIRECT`[]DIRECT`.*
 
 
 enable_rule_generator=true
