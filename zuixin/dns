@@ -3,15 +3,23 @@ ruleset=奈飞,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns
 ruleset=迪士尼,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/disney
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
-ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
-ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+
+
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/GoogleCN
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/LocalAreaNetwork
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/UnBan
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaDomain
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaMedia
+ruleset=REJECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/BanAD
+ruleset=REJECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/BanProgramAD
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaCompanyIp
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaIp
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaIpV6
+
+
+
+
+
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
