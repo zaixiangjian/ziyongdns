@@ -1,7 +1,6 @@
 
 [custom]
-ruleset=奈飞,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
-ruleset=迪士尼,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/disney
+
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/GoogleCN
