@@ -1,5 +1,6 @@
 [custom]
 ruleset=奈飞,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
+ruleset=奈飞,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/disney
 ruleset=测试规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ceshiguize
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
