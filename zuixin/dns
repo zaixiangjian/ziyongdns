@@ -1,7 +1,10 @@
 [custom]
+ruleset=Google,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Google
+ruleset=speedtest,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/speedtest
 ruleset=奈飞,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
 ruleset=迪士尼,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/disney
 ruleset=测试规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ceshiguize
+
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
@@ -17,6 +20,8 @@ ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
+custom_proxy_group=Google`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=speedtest`select`[]DIRECT`[]DIRECT`.*
 custom_proxy_group=奈飞`select`[]DIRECT`[]DIRECT`.*
 custom_proxy_group=迪士尼`select`[]DIRECT`[]DIRECT`.*
 custom_proxy_group=测试规则`select`[]DIRECT`[]DIRECT`.*
