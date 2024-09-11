@@ -13,12 +13,11 @@ ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ba
 ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
-
 ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
-
-
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
+
+
 
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
 custom_proxy_group=奈飞迪士尼`select`[]DIRECT`[]DIRECT`.*
