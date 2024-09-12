@@ -304,24 +304,8 @@ IP-CIDR,203.75.84.0/24,no-resolve
 IP-CIDR,207.45.72.0/22,no-resolve
 IP-CIDR,208.75.76.0/22,no-resolve
 
-# Niconico
-USER-AGENT,Niconico*
-DOMAIN-SUFFIX,dmc.nico
-DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN-SUFFIX,nimg.jp
 
-# NivodTV
-DOMAIN-KEYWORD,nivod
-DOMAIN-SUFFIX,biggggg.com
-DOMAIN-SUFFIX,mudvod.tv
-DOMAIN-SUFFIX,nbys.tv
-DOMAIN-SUFFIX,nbys1.tv
-DOMAIN-SUFFIX,nbyy.tv
-DOMAIN-SUFFIX,newpppp.com
-DOMAIN-SUFFIX,nivod.tv
-DOMAIN-SUFFIX,nivodi.tv
-DOMAIN-SUFFIX,nivodz.com
-DOMAIN-SUFFIX,vod360.net
+
 
 # Olevod
 DOMAIN-KEYWORD,olevod
@@ -334,86 +318,5 @@ DOMAIN-SUFFIX,olevod.io
 DOMAIN-SUFFIX,olevod.tv
 DOMAIN-SUFFIX,olevodtv.com
 
-# OpenAi
-DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
 
-# PBS
-USER-AGENT,PBS*
-DOMAIN-SUFFIX,pbs.org
-
-# Pandora
-USER-AGENT,Pandora*
-DOMAIN-SUFFIX,pandora.com
-
-# Pornhub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
-
-# Qobuz
-DOMAIN-SUFFIX,qobuz.com
-
-# SoundCloud
-USER-AGENT,SoundCloud*
-DOMAIN-SUFFIX,p-cdn.us
-DOMAIN-SUFFIX,sndcdn.com
-DOMAIN-SUFFIX,soundcloud.com
-
-# Spotify
-USER-AGENT,Spotify*
-DOMAIN-KEYWORD,-spotify-
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,spotifycdn.net
-
-# TIDAL
-USER-AGENT,TIDAL*
-DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
-DOMAIN-SUFFIX,tidal.com
-DOMAIN-SUFFIX,tidalhifi.com
-
-# TaiWanGood 台湾好
-USER-AGENT,TaiwanGood*
-DOMAIN,hamifans.emome.net
-DOMAIN-SUFFIX,skyking.com.tw
-
-
-
-# ViuTV
-USER-AGENT,Viu*
-PROCESS-NAME,com.viu.pad
-PROCESS-NAME,com.viu.phone
-PROCESS-NAME,com.vuclip.viu
-DOMAIN,api.viu.now.com
-DOMAIN,d1k2us671qcoau.cloudfront.net
-DOMAIN,d2anahhhmp1ffz.cloudfront.net
-DOMAIN,dfp6rglgjqszk.cloudfront.net
-DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net
-DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net
-DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net
-DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,viu.now.com
-DOMAIN-SUFFIX,viu.tv
 
