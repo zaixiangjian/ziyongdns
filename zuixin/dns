@@ -1,6 +1,6 @@
 [custom]
 ruleset=奈飞,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
-ruleset=迪士尼,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/disney
+ruleset=直连规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/GoogleCN
@@ -17,8 +17,8 @@ ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
-custom_proxy_group=奈飞`select`[]DIRECT`[]DIRECT`.*
-custom_proxy_group=迪士尼`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=奈飞迪士尼等流媒体`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=直连规则`select`[]DIRECT`[]DIRECT`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
