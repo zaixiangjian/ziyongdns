@@ -1,1 +1,21 @@
-123
+[custom]
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/GoogleCN
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/LocalAreaNetwork
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/UnBan
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaDomain
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaMedia
+ruleset=REJECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/BanAD
+ruleset=REJECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/BanProgramAD
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaCompanyIp
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaIp
+ruleset=DIRECT,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ChinaIpV6
+ruleset=DIRECT,[]GEOIP,CN,no-resolve
+ruleset=🚀 节点选择,[]FINAL
+
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+
+
+enable_rule_generator=true
+overwrite_original_rules=true
