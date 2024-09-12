@@ -1,4 +1,6 @@
 [custom]
+ruleset=自定义直连规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
+
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/GoogleCN
@@ -15,6 +17,7 @@ ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+custom_proxy_group=自定义直连规则`select`[]DIRECT`[]DIRECT`.*
 
 
 enable_rule_generator=true
