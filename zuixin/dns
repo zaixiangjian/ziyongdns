@@ -26,7 +26,7 @@ custom_proxy_group=TikTok`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=OpenAI`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=奈飞迪士尼等流媒体`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=自定义代理规则`select`[]🚀 节点选择`[]DIRECT`.*
-custom_proxy_group=自定义直连规则`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=自定义直连规则`select`[]DIRECT`[]DIRECT
 
 enable_rule_generator=true
 overwrite_original_rules=true
