@@ -20,7 +20,7 @@ ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
 custom_proxy_group=自定义代理规则`select`[]🚀 节点选择`[]DIRECT`.*
-custom_proxy_group=自定义直连规则`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=自定义直连规则`select`[]DIRECT`[]DIRECT
 
 
 enable_rule_generator=true
