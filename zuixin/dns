@@ -2,7 +2,7 @@
 ruleset=奈飞迪士尼等流媒体,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
 ruleset=TikTok,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/TikTok
 ruleset=OpenAI,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/OpenAI
-ruleset=测试规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ceshi
+ruleset=自定义代理规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/daili
 ruleset=自定义直连规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
 
 
@@ -25,7 +25,7 @@ custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
 custom_proxy_group=TikTok`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=OpenAI`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=奈飞迪士尼等流媒体`select`[]🚀 节点选择`[]DIRECT`.*
-custom_proxy_group=测试规则`select`[]🚀 节点选择`[]DIRECT`.*
+custom_proxy_group=自定义代理规则`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=自定义直连规则`select`[]DIRECT`[]DIRECT`.*
 
 enable_rule_generator=true
