@@ -1,6 +1,10 @@
 [custom]
-ruleset=奈飞,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
-ruleset=直连规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
+ruleset=奈飞迪士尼等流媒体,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
+ruleset=TikTok,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/TikTok
+ruleset=OpenAI,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/OpenAI
+ruleset=自定义直连规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
+ruleset=测试规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ceshi
+
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/GoogleCN
@@ -17,8 +21,11 @@ ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🚀 节点选择,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+custom_proxy_group=TikTok`select`[]🚀 节点选择`[]DIRECT`.*
+custom_proxy_group=OpenAI`select`[]🚀 节点选择`[]DIRECT`.*
 custom_proxy_group=奈飞迪士尼等流媒体`select`[]DIRECT`[]DIRECT`.*
-custom_proxy_group=直连规则`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=测试规则`select`[]DIRECT`[]DIRECT`.*
+custom_proxy_group=自定义直连规则`select`[]DIRECT`[]DIRECT`.*
 
 enable_rule_generator=true
 overwrite_original_rules=true
