@@ -61,7 +61,6 @@ custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]DIRECT
 
 ;设置分组标志位
-
 enable_rule_generator=true
 overwrite_original_rules=true
 
