@@ -2,8 +2,9 @@
 ruleset=奈飞迪士尼等流媒体,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/Netflix
 ruleset=TikTok,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/TikTok
 ruleset=OpenAI,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/OpenAI
-ruleset=自定义直连规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
 ruleset=测试规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/ceshi
+ruleset=自定义直连规则,https://raw.githubusercontent.com/zaixiangjian/ziyongdns/main/dns/zhilian
+
 
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
