@@ -1,0 +1,105 @@
+[custom]
+; ==================================================
+; 策略组定义
+; ==================================================
+
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+
+custom_proxy_group=🌐 Google`select`[]🚀 节点选择`.*
+
+custom_proxy_group=🤖 AI 服务`select`[]🚀 节点选择`.*
+
+custom_proxy_group=🎬 国际流媒体`select`[]🚀 节点选择`.*
+
+custom_proxy_group=🎵 TikTok`select`[]🚀 节点选择`.*
+
+
+; ==================================================
+; Google（含 Google AI / Gemini / YouTube）
+; ==================================================
+
+ruleset=🌐 Google,[]DOMAIN-SUFFIX,google.com
+ruleset=🌐 Google,[]DOMAIN-SUFFIX,googleapis.com
+ruleset=🌐 Google,[]DOMAIN-SUFFIX,gstatic.com
+
+; Google AI / Gemini
+ruleset=🌐 Google,[]DOMAIN-SUFFIX,ai.google
+ruleset=🌐 Google,[]DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+; YouTube（属于 Google）
+ruleset=🌐 Google,[]DOMAIN-SUFFIX,youtube.com
+ruleset=🌐 Google,[]DOMAIN-SUFFIX,ytimg.com
+
+ruleset=🌐 Google,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
+
+
+; ==================================================
+; 国外 AI（非 Google）
+; ==================================================
+
+ruleset=🤖 AI 服务,[]DOMAIN-SUFFIX,openai.com
+ruleset=🤖 AI 服务,[]DOMAIN-SUFFIX,chatgpt.com
+ruleset=🤖 AI 服务,[]DOMAIN-SUFFIX,oaistatic.com
+ruleset=🤖 AI 服务,[]DOMAIN-SUFFIX,oaiusercontent.com
+
+ruleset=🤖 AI 服务,[]DOMAIN-SUFFIX,x.ai
+
+ruleset=🤖 AI 服务,[]DOMAIN-SUFFIX,anthropic.com
+ruleset=🤖 AI 服务,[]DOMAIN-SUFFIX,claude.ai
+
+
+; ==================================================
+; 国际流媒体（不含 YouTube）
+; ==================================================
+
+ruleset=🎬 国际流媒体,[]DOMAIN-SUFFIX,netflix.com
+ruleset=🎬 国际流媒体,[]DOMAIN-SUFFIX,nflxvideo.net
+ruleset=🎬 国际流媒体,[]DOMAIN-SUFFIX,disneyplus.com
+ruleset=🎬 国际流媒体,[]DOMAIN-SUFFIX,dssott.com
+ruleset=🎬 国际流媒体,[]DOMAIN-SUFFIX,hbomax.com
+ruleset=🎬 国际流媒体,[]DOMAIN-SUFFIX,primevideo.com
+ruleset=🎬 国际流媒体,[]DOMAIN-SUFFIX,amazonvideo.com
+
+
+; ==================================================
+; TikTok（TK）
+; ==================================================
+
+ruleset=🎵 TikTok,[]DOMAIN-SUFFIX,tiktok.com
+ruleset=🎵 TikTok,[]DOMAIN-SUFFIX,tiktokcdn.com
+ruleset=🎵 TikTok,[]DOMAIN-SUFFIX,byteoversea.com
+ruleset=🎵 TikTok,[]DOMAIN-SUFFIX,ibytedtos.com
+ruleset=🎵 TikTok,[]DOMAIN-SUFFIX,muscdn.com
+ruleset=🎵 TikTok,[]DOMAIN-SUFFIX,musical.ly
+
+
+; ==================================================
+; 国内 / 局域网 / 广告拦截
+; ==================================================
+
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+
+ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=REJECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=DIRECT,[]GEOIP,CN,no-resolve
+
+
+; ==================================================
+; 兜底规则
+; ==================================================
+
+ruleset=🚀 节点选择,[]FINAL
+
+
+; ==================================================
+; 生成器设置
+; ==================================================
+
+enable_rule_generator=true
+overwrite_original_rules=true
