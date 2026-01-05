@@ -1,0 +1,38 @@
+[custom]
+; ===============================
+; 仅保留 4 类分流规则
+; ===============================
+
+; ---------- 节点选择（Google / YouTube） ----------
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+
+; ---------- 流媒体（Netflix） ----------
+ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+
+; ---------- AI 服务（国外 AI） ----------
+ruleset=🤖 AI服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
+
+; ---------- 国内直连 ----------
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
+
+; ---------- 兜底 ----------
+ruleset=🐟 漏网之鱼,[]FINAL
+
+
+; ===============================
+; 分组设置
+; ===============================
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+custom_proxy_group=🎥 奈飞视频`select`[]🚀 节点选择`[]DIRECT`.*
+custom_proxy_group=🤖 AI服务`select`[]🚀 节点选择`[]DIRECT`.*
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`.*
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]DIRECT`
+
+enable_rule_generator=true
+overwrite_original_rules=true
