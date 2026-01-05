@@ -14,7 +14,7 @@ ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 
 ; ---------- AI 服务（国外 AI） ----------
 ruleset=🤖 AI服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
-ruleset=🤖 AI自定义,https://gist.githubusercontent.com/你的GistID/ai_custom.list ; 包含 ChatGPT/Gemini/Grok 等
+
 
 ; ---------- 国内直连 ----------
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
